@@ -30,6 +30,11 @@
             border-radius: 10px;
             text-align: center;         
         } 
+        .menu_superior{
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
         .menu{
             
             width: 100%;
