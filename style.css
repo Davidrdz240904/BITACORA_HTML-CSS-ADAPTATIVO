@@ -98,6 +98,26 @@
             padding: 0.5%;
             margin-bottom: 10px;
         }
+        img{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            border-radius: 10px;
+            width: 50%;
+            height: 80%;
+            position: static;
+            display: block;
+        }
+        .img1{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            border-radius: 10px;
+            width: 25%;
+            height: 20%;
+            position: static;
+            display: block;
+        }
         .contenedor_sec{
             width: 70%;
             height: 80%;
@@ -125,7 +145,11 @@
             
         }
 
-            @media (max-width: 900px){
+
+
+            @media (max-width: 1100px){
+
+
             .menu{
                 border-radius: 10px;
             }
@@ -138,10 +162,9 @@
                 display: inline-block;
                 margin: auto;
             }
-            
-        }
-
-            @media (max-width: 1100px){
+            .contenedor{
+                font-size: 12px;
+            }
             .contenedor_sec{
                 text-align: center;
             }
@@ -153,8 +176,6 @@
                 font-size: 10px;
                 
             }
-        }
-            @media (max-width: 1100px){
             .contenedor_datos{
                 text-align: center;
                 height: auto;
@@ -162,3 +183,4 @@
                 margin: auto;
             }
         }
+
