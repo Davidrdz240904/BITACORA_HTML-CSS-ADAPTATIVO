@@ -23,7 +23,7 @@
             initial-value: #8C7503;
         }
         /*************CELULAR****************/
-        @media (min-width:448px) {
+        @media (max-width:448px) {
         .contenedor_datos{
             width:90%;
             height: 20%;
@@ -455,3 +455,4 @@
         }
  
  
+
