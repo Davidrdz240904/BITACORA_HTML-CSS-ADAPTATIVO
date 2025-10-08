@@ -1,4 +1,5 @@
-alert("Bienvenidos a los bucles de la f1")
+function boton() {
+    alert("Bienvenidos a los bucles de la f1")
 console.log("Bienvenido alos Bucles de la formula 1");
 //ciclo do while
 do {
@@ -53,3 +54,5 @@ do {
     }
     var terminar=prompt("quires terminar los ciclos de f1??  1) si o 2) no")
 } while (terminar==2);
+    
+}
