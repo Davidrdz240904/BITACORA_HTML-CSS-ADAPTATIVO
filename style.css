@@ -169,6 +169,19 @@
             text-align: center;
            
         }
+                  .minicontenedores2{
+            width: 45%;
+            height: 20%;
+            display: inline-block;
+            margin: 10px;
+            margin-left:auto;
+            margin-right: auto;
+            border-radius: 10px;
+            padding: 4px;
+            margin-bottom: auto;
+            text-align: center;
+           
+        }
         .minicontenedores {
             font-size: 10px;
         }
@@ -381,6 +394,19 @@
             text-align: center;
            
         }
+          .minicontenedores2{
+            width: 45%;
+            height: 20%;
+            display: inline-block;
+            margin: 10px;
+            margin-left:auto;
+            margin-right: auto;
+            border-radius: 10px;
+            padding: 4px;
+            margin-bottom: auto;
+            text-align: center;
+           
+        }
         .minicontenedores h1{
             font-size: 18px;
         }
@@ -567,6 +593,19 @@
             width: 45%;
             height: 20%;
             background-color:var(--barras_secundarias);
+            display: inline-block;
+            margin: 10px;
+            margin-left:auto;
+            margin-right: auto;
+            border-radius: 10px;
+            padding: 4px;
+            margin-bottom: auto;
+            text-align: center;
+           
+        }
+            .minicontenedores2{
+            width: 45%;
+            height: 20%;
             display: inline-block;
             margin: 10px;
             margin-left:auto;
