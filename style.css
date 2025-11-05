@@ -212,6 +212,7 @@
                         width: 140vw;
                         height: 100%;  
                     z-index: -2;
+                    position: absolute;
 
                 }
             .capa2 {
@@ -223,6 +224,13 @@
                 z-index: -1;
                 margin: 0%;
                 }
+           .contenido {
+            padding: 50px 20px;
+            background-color: #0aa5e2;
+            text-align: center;
+            min-height: 200px;
+            color: azure;
+               }
 
 
 
@@ -446,6 +454,14 @@
                 margin: 0%;
             }
 
+            .contenido {
+            padding: 50px 20px;
+            background-color: #0aa5e2;
+            text-align: center;
+            min-height: 150px;
+             color: azure;
+        }
+
 
 
     .boton_es {
@@ -657,6 +673,7 @@
         width: 100vw;
         height: 100%;
         z-index: -2;
+        position: absolute;
 
     }
     .capa2 {
@@ -668,6 +685,14 @@
       z-index: -1;
       margin: 0%;
     }
+
+    .contenido {
+            padding: 50px 20px;
+            background-color: #0aa5e2;
+            text-align: center;
+            min-height: 200px;
+             color: azure;
+        }
 
 
 
