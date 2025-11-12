@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Añadir la librería de Boostrap en la página oficial: JS y CSS
+    https://getbootstrap.com/
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Boostrap 5</title>
+</head>
+ 
+<body>
+    <!--https://getbootstrap.com/docs/5.3/components/accordion/-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid" style="background-color: rgb(120, 118, 118);">
+    <a class="navbar-brand" href="index.html" style="color: aliceblue;">Inicio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" style="color: aliceblue;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: aliceblue;">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" style="color: aliceblue;">Action</a></li>
+            <li><a class="dropdown-item" href="#" style="color: aliceblue;">Another action</a></li>
+            <li><a class="dropdown-item" href="#" style="color: aliceblue;">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true" style="color: brown;">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="buscar"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+<p class="d-inline-flex gap-1">
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Abrir
+  </a>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Hola mi nombre es David Rodriguez Jurado y  actualmente estudio en la carrera de diseño digitaly medios interactivos y eso es muy bueno
+</div>
+</div>
+
+
+<div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-primary">Hola </button>
+  <button type="button" class="btn btn-primary">Adios</button>
+  <button type="button" class="btn btn-primary">Hello?</button>
+</div>
+
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/castillo.png" class="d-block w-100" style="width: 100px; height: 500px;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/zenitsu.png" class="d-block w-100" style="width: 100px; height: 500px;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW-1bWTb6zHRKcfwBOrBvq_ZxQyPIHbcAkjg&s" style="width: 100px; height: 500px;" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+    Abrir
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">opcion 1</a></li>
+    <li><a class="dropdown-item" href="#">opcion 2</a></li>
+    <li><a class="dropdown-item" href="#">opcion 3</a></li>
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+ 
+ 
+</html>
